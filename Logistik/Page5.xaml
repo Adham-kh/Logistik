@@ -1,0 +1,31 @@
+﻿<Page x:Class="Logistik.Page5"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Logistik"
+      mc:Ignorable="d"
+      Title="Page5" Height="500" Width="1000">
+
+    <Grid Background="DimGray" Height="500" Width="1000">
+
+        <DataGrid x:Name="dataGrid" CanUserAddRows="True"  AutoGenerateColumns="False" HorizontalAlignment="Left" Height="187" VerticalAlignment="Top" Width="736" Margin="36,19,0,0">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Имя Водителя"  Binding="{Binding FirstName}" />
+                <DataGridTextColumn Header="Фамилия Водителя"  Binding="{Binding LastName}" />
+                <DataGridTextColumn Header="Номер телефона"  Binding="{Binding PhoneNumber}" />
+                <DataGridTextColumn Header="Эл адрес Водителя"  Binding="{Binding Email}" />
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Button Content="Добавить" FontSize="12" HorizontalAlignment="Left"  Margin="30,0,0,0" VerticalAlignment="Center" Width="90" Height="30" Style="{StaticResource SidebarButtonStyle}" Click="Creat_Click" RenderTransformOrigin="0.5,0.6"/>
+        <Button Content="Обновить" FontSize="12" HorizontalAlignment="Left"  Margin="147,0,0,0" VerticalAlignment="Center" Width="90" Height="30" Style="{StaticResource SidebarButtonStyle}" Click="Update_Click" RenderTransformOrigin="0.5,0.6"/>
+        <Button Content="Удалить" FontSize="12" HorizontalAlignment="Left"  Margin="270,0,0,0" VerticalAlignment="Center" Width="90" Height="30" Style="{StaticResource SidebarButtonStyle}" Click="Delete_Click" RenderTransformOrigin="0.5,0.6"/>
+        <Button Content="Poisk" FontSize="12" HorizontalAlignment="Left"  Margin="270,332,0,0" VerticalAlignment="Top" Width="90" Height="30" Style="{StaticResource SidebarButtonStyle}" Click="Button_Click1"/>
+        <Button Content="Очистит" HorizontalAlignment="Left" Margin="666,220,0,0" VerticalAlignment="Top" Click="Button_Click_1" Width="100" Height="30"/>
+        <TextBox x:Name="Poisk" Style="{StaticResource StylishTextBox}" Width="200" Margin="37,328,763,134"/>
+        <Label Content="Для поска введите имя водителя" HorizontalAlignment="Left" Margin="36,297,0,0" VerticalAlignment="Top" Width="194"/>
+
+    </Grid>
+</Page>
+

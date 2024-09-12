@@ -1,0 +1,34 @@
+﻿<Window x:Class="Logistik.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Logistik"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid Background="#2C3E50">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="663*"/>
+            <ColumnDefinition Width="137*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Text="Вход в систему" Foreground="White" FontSize="24" FontWeight="Bold" 
+                   HorizontalAlignment="Left" VerticalAlignment="Top" Margin="311,30,0,0"/>
+
+        <TextBox x:Name="UserNameTextBox" FontSize="16" Background="Transparent" Foreground="White" 
+                 BorderBrush="White" BorderThickness="1" Margin="163,75,127,0" Height="30" VerticalAlignment="Top" 
+                 Text="Логин" GotFocus="TextBox_GotFocus" LostFocus="TextBox_LostFocus" Grid.ColumnSpan="2"/>
+
+        <Grid Margin="50,162,50,0" Height="30" VerticalAlignment="Top" Grid.ColumnSpan="2">
+            <PasswordBox x:Name="PasswordBox" FontSize="16" Background="Transparent" Foreground="White" 
+                         BorderBrush="White" BorderThickness="1" Padding="5,0,30,0" Margin="0,0,77,0" HorizontalAlignment="Right" Width="512"/>
+            <TextBox x:Name="PasswordTextBox" FontSize="16" Background="Transparent" Foreground="White" 
+                     BorderBrush="White" BorderThickness="1" Padding="5,0,30,0" Visibility="Collapsed"/>
+            <Button x:Name="ShowHideButton" Content="👁" Width="30" Height="30" Background="Transparent" BorderBrush="Transparent" 
+                    Foreground="White" HorizontalAlignment="Left" Click="ShowHideButton_Click" Margin="623,0,0,0"/>
+        </Grid>
+
+        <Button Content="Войти" FontSize="16" FontWeight="Bold" Background="#1ABC9C" Foreground="White" 
+                BorderBrush="Transparent" Height="40" Width="300" HorizontalAlignment="Left" Margin="250,297,0,97" Click="LoginButton_Click"/>
+        <TextBlock Background="Transparent"  Foreground="White"  HorizontalAlignment="Left" Height="19" Margin="163,138,0,0" TextWrapping="Wrap" Text="Пароль" VerticalAlignment="Top" Width="226"/>
+    </Grid>
+</Window>

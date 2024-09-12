@@ -1,0 +1,24 @@
+﻿<Window x:Class="Logistik.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="525" Width="1200">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <!-- Sidebar -->
+        <StackPanel Grid.Column="0" Background="#0C3E40">
+            <Button x:Name="Page1Button" Content="Клиенты"               Click="Page1Button_Click" Style="{StaticResource SidebarButtonStyle}" Height="40"/>
+            <Button x:Name="Page2Button" Content="Новый заказ"           Click="Page2Button_Click" Style="{StaticResource SidebarButtonStyle}" Height="40"/>
+            <Button x:Name="Page7Button" Content="Принять заказ"         Click="Page7Button_Click" Style="{StaticResource SidebarButtonStyle}" Height="40"/>
+            <Button x:Name="Page3Button" Content="Аналитика"             Click="Page3Button_Click" Style="{StaticResource SidebarButtonStyle}" Height="40"/>
+            <Button x:Name="Page4Button" Content="Транспортные средства" Click="Page4Button_Click" Style="{StaticResource SidebarButtonStyle}" Height="40"/>
+            <Button x:Name="Page5Button" Content="Водителы"              Click="Page5Button_Click" Style="{StaticResource SidebarButtonStyle}" Height="40"/>
+            <Button x:Name="Page6Button" Content="Закрыт"                Click="Page6Button_Click"  Style="{StaticResource SidebarButtonStyle}" Height="40" VerticalAlignment="Bottom"/>
+
+        </StackPanel>
+        <!-- Main Content -->
+        <Frame x:Name="MainFrame" Grid.Column="1" NavigationUIVisibility="Hidden" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"/>
+    </Grid>
+</Window>

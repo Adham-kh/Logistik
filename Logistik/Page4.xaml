@@ -1,0 +1,27 @@
+﻿<Page x:Class="Logistik.Page4"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Page4">
+    <Grid Background="DimGray" Height="500" Width="1000">
+
+        <DataGrid x:Name="dataGridVeh" CanUserAddRows="True"  AutoGenerateColumns="False" HorizontalAlignment="Left" Height="187" VerticalAlignment="Top" Width="781" Margin="30,28,0,0">
+            <DataGrid.Columns>
+
+
+                <DataGridTextColumn Header="номерной знак"  Binding="{Binding LicensePlate}" />
+                <DataGridTextColumn Header="модель транспортного средства"  Binding="{Binding Model}" />
+                <DataGridTextColumn Header="грузоподъёмность в кг"  Binding="{Binding Capacity}" />
+                <DataGridComboBoxColumn Header="статус транспортного средства" SelectedValueBinding="{Binding V_Status}" />
+
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Button Content="Добавить" FontSize="12" HorizontalAlignment="Left"  Margin="30,0,0,0" VerticalAlignment="Center" Width="90" Height="30" Style="{StaticResource SidebarButtonStyle}" Click="Creat_Click" RenderTransformOrigin="0.5,0.6"/>
+        <Button Content="Обновить" FontSize="12" HorizontalAlignment="Left"  Margin="147,0,0,0" VerticalAlignment="Center" Width="90" Height="30" Style="{StaticResource SidebarButtonStyle}" Click="Update_Click" RenderTransformOrigin="0.5,0.6"/>
+        <Button Content="Удалить" FontSize="12" HorizontalAlignment="Left"  Margin="270,0,0,0" VerticalAlignment="Center" Width="90" Height="30" Style="{StaticResource SidebarButtonStyle}" Click="Delete_Click" RenderTransformOrigin="0.5,0.6"/>
+        <Button Content="Poisk" FontSize="12" HorizontalAlignment="Left"  Margin="270,332,0,0" VerticalAlignment="Top" Width="90" Height="30" Style="{StaticResource SidebarButtonStyle}" Click="Button_Click1"/>
+        <Button Content="Очистит" HorizontalAlignment="Left" Margin="711,220,0,0" VerticalAlignment="Top" Click="Button_Click_1" Width="100" Height="30"/>
+        <TextBox x:Name="Poisk" Style="{StaticResource StylishTextBox}" Width="200" Margin="37,328,763,134"/>
+
+    </Grid>
+</Page>

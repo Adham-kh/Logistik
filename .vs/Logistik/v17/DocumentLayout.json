@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A73B523-29BC-43F2-846B-CA3B42DBE5E6}|Logistik\\Logistik.csproj|D:\\project\\logistik\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A73B523-29BC-43F2-846B-CA3B42DBE5E6}|Logistik\\Logistik.csproj|solutionrelative:logistik\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A73B523-29BC-43F2-846B-CA3B42DBE5E6}|Logistik\\Logistik.csproj|D:\\project\\logistik\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2A73B523-29BC-43F2-846B-CA3B42DBE5E6}|Logistik\\Logistik.csproj|solutionrelative:logistik\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A73B523-29BC-43F2-846B-CA3B42DBE5E6}|Logistik\\Logistik.csproj|D:\\project\\logistik\\page1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A73B523-29BC-43F2-846B-CA3B42DBE5E6}|Logistik\\Logistik.csproj|solutionrelative:logistik\\page1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A73B523-29BC-43F2-846B-CA3B42DBE5E6}|Logistik\\Logistik.csproj|D:\\project\\logistik\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2A73B523-29BC-43F2-846B-CA3B42DBE5E6}|Logistik\\Logistik.csproj|solutionrelative:logistik\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A73B523-29BC-43F2-846B-CA3B42DBE5E6}|Logistik\\Logistik.csproj|D:\\project\\logistik\\page3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2A73B523-29BC-43F2-846B-CA3B42DBE5E6}|Logistik\\Logistik.csproj|solutionrelative:logistik\\page3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A73B523-29BC-43F2-846B-CA3B42DBE5E6}|Logistik\\Logistik.csproj|d:\\project\\logistik\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A73B523-29BC-43F2-846B-CA3B42DBE5E6}|Logistik\\Logistik.csproj|solutionrelative:logistik\\connectdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A73B523-29BC-43F2-846B-CA3B42DBE5E6}|Logistik\\Logistik.csproj|D:\\project\\logistik\\tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A73B523-29BC-43F2-846B-CA3B42DBE5E6}|Logistik\\Logistik.csproj|solutionrelative:logistik\\tables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A73B523-29BC-43F2-846B-CA3B42DBE5E6}|Logistik\\Logistik.csproj|D:\\project\\logistik\\page3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A73B523-29BC-43F2-846B-CA3B42DBE5E6}|Logistik\\Logistik.csproj|solutionrelative:logistik\\page3.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConnectDB.cs",
+              "DocumentMoniker": "D:\\project\\Logistik\\ConnectDB.cs",
+              "RelativeDocumentMoniker": "Logistik\\ConnectDB.cs",
+              "ToolTip": "D:\\project\\Logistik\\ConnectDB.cs",
+              "RelativeToolTip": "Logistik\\ConnectDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T07:30:33.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Page3.xaml.cs",
+              "DocumentMoniker": "D:\\project\\Logistik\\Page3.xaml.cs",
+              "RelativeDocumentMoniker": "Logistik\\Page3.xaml.cs",
+              "ToolTip": "D:\\project\\Logistik\\Page3.xaml.cs",
+              "RelativeToolTip": "Logistik\\Page3.xaml.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAUwIQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T08:23:02.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Page3.xaml",
+              "DocumentMoniker": "D:\\project\\Logistik\\Page3.xaml",
+              "RelativeDocumentMoniker": "Logistik\\Page3.xaml",
+              "ToolTip": "D:\\project\\Logistik\\Page3.xaml",
+              "RelativeToolTip": "Logistik\\Page3.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-15T08:16:48.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\project\\Logistik\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Logistik\\MainWindow.xaml",
+              "ToolTip": "D:\\project\\Logistik\\MainWindow.xaml",
+              "RelativeToolTip": "Logistik\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-05T10:57:49.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\project\\Logistik\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Logistik\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\project\\Logistik\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "Logistik\\MainWindow.xaml.cs*",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T23:32:52.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Page1.xaml",
+              "DocumentMoniker": "D:\\project\\Logistik\\Page1.xaml",
+              "RelativeDocumentMoniker": "Logistik\\Page1.xaml",
+              "ToolTip": "D:\\project\\Logistik\\Page1.xaml",
+              "RelativeToolTip": "Logistik\\Page1.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-15T08:32:16.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Page1.xaml.cs",
+              "DocumentMoniker": "D:\\project\\Logistik\\Page1.xaml.cs",
+              "RelativeDocumentMoniker": "Logistik\\Page1.xaml.cs",
+              "ToolTip": "D:\\project\\Logistik\\Page1.xaml.cs",
+              "RelativeToolTip": "Logistik\\Page1.xaml.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAEwDkAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T08:32:20.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Tables.cs",
+              "DocumentMoniker": "D:\\project\\Logistik\\Tables.cs",
+              "RelativeDocumentMoniker": "Logistik\\Tables.cs",
+              "ToolTip": "D:\\project\\Logistik\\Tables.cs",
+              "RelativeToolTip": "Logistik\\Tables.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T15:17:42.932Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
